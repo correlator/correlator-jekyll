@@ -2,6 +2,7 @@
 layout: post
 title:  "Travel Guide ETL"
 date:   2016-10-20 15:40:03 -0700
+timeframe:   Jul 2016 - present
 image:
   feature: "citykey.png"
 tags: [Gather, Secure, Clean, Analyze, Present]

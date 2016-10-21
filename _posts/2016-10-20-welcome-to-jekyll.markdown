@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EventInsider"
-date:   2016-10-20 15:40:03 -0700
+timeframe:   Aug 2015 - Dec 2015
 image:
   feature: "eventinsider.png"
 tags: [Gather, Clean, Present]
