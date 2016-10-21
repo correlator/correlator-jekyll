@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Legal Invoice Cleaner"
-date:   2016-10-20 15:40:03 -0700
 timeframe:   Jul 2016 - present
 image:
   feature: "legalnext.png"

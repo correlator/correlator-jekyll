@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Blackbird"
-date:   2016-02-02 15:40:03 -0700
 timeframe:   May 2016 - Sept 2016
 image:
   feature: "blackbird.png"

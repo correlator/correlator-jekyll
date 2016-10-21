@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Project Scorecard"
-date:   2016-02-02 15:40:03 -0700
-timeframe:   May 2016 - Sept 2016
+timeframe:   Sept 2016 - Present
 image:
   feature: "scorecard.png"
 tags: [Gather, Secure, Clean, Present, Analyze]

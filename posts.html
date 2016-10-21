@@ -47,11 +47,19 @@ permalink: /projects/
 </div>
 
 <script>
+  $(document).ready(function() {
+    var tag = document.location.search.substr(1).split('=')[1];
+    if (tag != undefined) {
+      filterClicked(tag);
+    }
+  })
+
   function filterClicked(tag) {
     $(".filter-btn").removeClass("active");
     $( "div[tag*='" + tag + "']" ).addClass("active");
     $(".media").addClass("hidden");
     $( "div[tags*='" + tag + "']" ).removeClass("hidden");
-    console.log($( "div[tags*='" + tag + "']" ));
+    key = encodeURI("tag"); value = encodeURI(tag);
+    window.history.pushState('page2', 'Title', document.location.href.split("?")[0] + "?" + key + "=" + value);
   }
 </script>

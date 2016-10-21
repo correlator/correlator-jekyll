@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Mayor's Dashboard"
-date:   2016-10-20 15:40:03 -0700
 timeframe:   Oct 2015 - Nov 2015
 image:
   feature: "mayordash.png"

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Talking Coffee Machine"
-date:   Mar 2016 - Apr 2016
 timeframe:   Mar 2016 - Apr 2016
 image:
   feature: "talking_coffee.png"

@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Product Infringement Detector"
-date:   Mar 2016 - Apr 2016
 timeframe:   Mar 2016 - Apr 2016
 image:
   feature: "crooks.png"
