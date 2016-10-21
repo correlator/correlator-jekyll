@@ -1,28 +1,10 @@
 ---
 layout: post
-title:  "Correlator"
+title:  "Travel Guide ETL"
 date:   2016-10-20 15:40:03 -0700
 image:
-  feature: "eventinsider.png"
-tags: [Clean]
+  feature: "citykey.png"
+tags: [Gather, Secure, Clean, Analyze, Present]
 layout: post
+description: "A company that makes online travel guides collects a lot of information about activities across the US but this information is often conflicting or incorrect.  They wanted to hire cheap help to validate all of this data, but with all of the potential places data could be wrong, help was hard to find.  We created a system where they can import all of their data and pass it through a rules engine that autodetects suspect data.  It then broke all of the potential data conflicts into multiple different single purpose tasks such as “Add an address”, “Fix conflicting names”, “Add Quotes”, “Validate Google Places ID”, etc. "
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/

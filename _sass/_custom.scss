@@ -108,6 +108,7 @@
   border: 3px solid #979797;
   color: #4A90E2;
   cursor: pointer;
+  margin-bottom: 5px;
 
   &.active {
     background-color: #D8D8D8;
@@ -116,7 +117,9 @@
 
 .btn-small {
   font-size: 12px;
+  width: 70px;
   cursor: default;
+  border: 2px solid #979797;
 }
 
 .hidden {
@@ -154,4 +157,7 @@
   height: 190px;
   width: 190px;
   margin: 5px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
