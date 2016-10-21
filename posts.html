@@ -5,7 +5,7 @@ punchline: Projects
 permalink: /projects/
 ---
 
-<div class="page-container">
+<div class="page-container container">
   {% assign t = site.tags | first | first %}
   <div class="filter-btn-holder">
     {% for tag in site.tags | sort %}
@@ -29,7 +29,7 @@ permalink: /projects/
         <div class="project-image" style="background-image:url({{ site.url }}/images/{{ post.image.feature }})"></div>
       </div>
       <div class="col-sm-9">
-        <div class="row text-center">
+        <div class="row text-center" style="min-height:75px;">
           <h3>
             <div class="col-sm-4">
               {{ post.title }}
