@@ -11,7 +11,7 @@ email: correlatorsales@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A one stop shop for all things data.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://correlator.github.io/correlator-jekyll/" # the base hostname & protocol for your site
 twitter_username:  
 github_username:  correlator
 
