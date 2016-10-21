@@ -151,11 +151,17 @@
   color: #4A90E2;
 }
 
+.post-row {
+  background-color: #D8D8D8;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 .project-image {
   display: inline-block;
-  float: left;
   height: 190px;
-  width: 190px;
+  max-width: 190px;
+  width: 100%;
   margin: 5px;
   background-size: cover;
   background-repeat: no-repeat;

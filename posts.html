@@ -21,25 +21,33 @@ permalink: /projects/
 
   {% for post in site.posts %}
     {% if post.tags contains t %}
-    <div class="media" tags="{{ post.tags | join: ' ' }}">
+    <div class="row post-row" tags="{{ post.tags | join: ' ' }}">
     {% else %}
-      <div class="media hidden" tags="{{ post.tags | join: ', ' }}">
+      <div class="row post-row hidden" tags="{{ post.tags | join: ', ' }}">
     {% endif %}
-      <div class="media-left media-middle">
+      <div class="col-sm-3 media-middle text-center">
         <div class="project-image" style="background-image:url({{ site.url }}/images/{{ post.image.feature }})"></div>
       </div>
-      <div class="media-body">
-        <h3 class="media-heading">
-          {{ post.title }}
-          <span class="post-meta">
-            {{ post.timeframe }}
-          </span>
-          {% for tag in post.tags %}
-          <div class="filter-btn btn-small">
-            {{ tag }}
-          </div>
-          {% endfor %}
-        </h3>
+      <div class="col-sm-9">
+        <div class="row text-center">
+          <h3>
+            <div class="col-sm-4">
+              {{ post.title }}
+            </div>
+            <div class="col-sm-3">
+              <span class="post-meta">
+                {{ post.timeframe }}
+              </span>
+            </div>
+            <div class="col-sm-5">
+              {% for tag in post.tags %}
+              <div class="filter-btn btn-small">
+                {{ tag }}
+              </div>
+              {% endfor %}
+            </div>
+          </h3>
+        </div>
         {{ post.description }}
       </div>
     </div>
