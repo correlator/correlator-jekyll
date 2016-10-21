@@ -65,7 +65,7 @@ permalink: /projects/
   function filterClicked(tag) {
     $(".filter-btn").removeClass("active");
     $( "div[tag*='" + tag + "']" ).addClass("active");
-    $(".media").addClass("hidden");
+    $(".post-row").addClass("hidden");
     $( "div[tags*='" + tag + "']" ).removeClass("hidden");
     key = encodeURI("tag"); value = encodeURI(tag);
     window.history.pushState('', '', document.location.href.split("?")[0] + "?" + key + "=" + value);
