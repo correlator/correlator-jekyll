@@ -1,0 +1,157 @@
+.text-center{
+  text-align: center;
+}
+
+.main-banner {
+  height: 300px;
+  width: 100%;
+  background-image: url('/images/bandstructure.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  float: right;
+
+  h1 {
+    text-align: center;
+    background-color: #4A90E2;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 40%;
+    font-weight:200;
+  }
+
+  h2 {
+    text-align: center;
+    background-color: #D0021B;
+    color: #fff;
+    margin-left: 30px;
+    padding: 5px;
+    width: 60%;
+    font-weight:200;
+  }
+}
+
+.spacer {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  height: 10px;
+}
+
+.left-half {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  color: #9B9B9B;
+  .blue {
+    color: #4A90E2;
+  }
+}
+
+.right-half {
+  margin-top:50px;
+  margin-bottom: 50px;
+  display: inline-block;
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+  color: #9B9B9B;
+}
+
+.contact-btn {
+  background-color: #4A90E2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 2px solid transparent;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.contact-btn:hover {
+  background-color: white;
+  color: #9B9B9B;
+  border: 2px solid #4A90E2;
+}
+
+.page-container {
+  margin: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .left-half {
+    width: 100%;
+  }
+  .right-half {
+    width: 100%;
+  }
+}
+
+.filter-btn-holder {
+  float:left;
+  margin: 20px;
+  text-align: center;
+  width: 100%
+}
+
+.filter-btn {
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  border: 3px solid #979797;
+  color: #4A90E2;
+  cursor: pointer;
+
+  &.active {
+    background-color: #D8D8D8;
+  }
+}
+
+.btn-small {
+  font-size: 12px;
+  cursor: default;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.project-holder {
+  margin: 20px;
+  padding:10px;
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+  background-color: #D8D8D8;
+
+  .project-content {
+    display: inline-block;
+    float: left;
+    margin: 10px;
+  }
+}
+
+.media {
+  background-color: #D8D8D8;
+  display: inline-block;
+}
+
+.media-heading {
+  margin-top: 10px !important;
+  color: #4A90E2;
+}
+
+.project-image {
+  display: inline-block;
+  float: left;
+  height: 190px;
+  width: 190px;
+  margin: 5px;
+}
