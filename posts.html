@@ -60,6 +60,6 @@ permalink: /projects/
     $(".media").addClass("hidden");
     $( "div[tags*='" + tag + "']" ).removeClass("hidden");
     key = encodeURI("tag"); value = encodeURI(tag);
-    window.history.pushState('page2', 'Title', document.location.href.split("?")[0] + "?" + key + "=" + value);
+    window.history.pushState('', '', document.location.href.split("?")[0] + "?" + key + "=" + value);
   }
 </script>
